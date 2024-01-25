@@ -1,11 +1,20 @@
 // HeritageEntreprise.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
 
+
 #include <iostream>
+#include "Commerciaux.h"
+#include "Employes.h"
+#include "Entreprise.h"
+#include "Interimaires.h"
+#include "Representants.h"
+#include "Techniciens.h"
+#include "Vendeurs.h"
+
 
 int main()
 {
-    
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

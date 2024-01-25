@@ -155,11 +155,19 @@
     <ClCompile Include="Employes.cpp" />
     <ClCompile Include="Entreprise.cpp" />
     <ClCompile Include="HeritageEntreprise.cpp" />
+    <ClCompile Include="Interimaires.cpp" />
+    <ClCompile Include="Representants.cpp" />
+    <ClCompile Include="Techniciens.cpp" />
+    <ClCompile Include="Vendeurs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Commerciaux.h" />
     <ClInclude Include="Employes.h" />
     <ClInclude Include="Entreprise.h" />
+    <ClInclude Include="Interimaires.h" />
+    <ClInclude Include="Representants.h" />
+    <ClInclude Include="Techniciens.h" />
+    <ClInclude Include="Vendeurs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

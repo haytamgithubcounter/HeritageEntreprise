@@ -1,9 +1,8 @@
 #pragma once
-#include "Entreprise.h"
+
 #include <iostream>
 using namespace std;
-class Employes :
-	private Entreprise
+class Employes 
 {
 private:
 	string nom, prenom;
@@ -11,5 +10,6 @@ private:
 public:
 	float calculSalaire();
 	void afficheSalaire();
+	Employes(string n, string p, int a);
 };
 
